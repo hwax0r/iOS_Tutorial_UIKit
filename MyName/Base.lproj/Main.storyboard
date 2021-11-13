@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="-1062" y="123"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="rDL-w3-8f4">
             <objects>
-                <viewController id="i14-3s-eq2" sceneMemberID="viewController">
+                <viewController id="i14-3s-eq2" customClass="SecondViewController" customModule="MyName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7ql-Bf-ylS">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
