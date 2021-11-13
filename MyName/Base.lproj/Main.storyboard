@@ -51,8 +51,19 @@
                     <view key="view" contentMode="scaleToFill" id="7ql-Bf-ylS">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qf2-fr-TQk">
+                                <rect key="frame" x="153.66666666666666" y="378.66666666666669" width="83" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Show Alert"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ix9-GK-hhK"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="qf2-fr-TQk" firstAttribute="centerY" secondItem="7ql-Bf-ylS" secondAttribute="centerY" id="BBE-mk-MuK"/>
+                            <constraint firstItem="qf2-fr-TQk" firstAttribute="centerX" secondItem="7ql-Bf-ylS" secondAttribute="centerX" id="oOA-jC-D0U"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oCs-NN-AGh"/>
                 </viewController>
