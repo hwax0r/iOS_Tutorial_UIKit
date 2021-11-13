@@ -27,6 +27,9 @@
                                 <rect key="frame" x="248" y="762" width="126" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Show Next Screen"/>
+                                <connections>
+                                    <segue destination="i14-3s-eq2" kind="show" id="Tvc-PM-a26"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -39,22 +42,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="119"/>
+            <point key="canvasLocation" x="-1062" y="123"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rDL-w3-8f4">
             <objects>
                 <viewController id="i14-3s-eq2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7ql-Bf-ylS">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="ix9-GK-hhK"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="oCs-NN-AGh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N8n-Z9-AbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-208" y="-559"/>
+            <point key="canvasLocation" x="-115" y="123"/>
         </scene>
     </scenes>
     <resources>
