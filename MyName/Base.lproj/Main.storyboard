@@ -56,6 +56,9 @@
                                 <rect key="frame" x="153.66666666666666" y="378.66666666666669" width="83" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Show Alert"/>
+                                <connections>
+                                    <action selector="showAlert" destination="i14-3s-eq2" eventType="touchUpInside" id="pMv-c8-4FM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ix9-GK-hhK"/>
